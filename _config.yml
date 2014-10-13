@@ -95,7 +95,7 @@ exclude_generator:
 
 backup:
   repository: git@github.com:coneycode/coney-hexo-theme.git
-  branch: master
+  branch: backup
 
 
 stylus:
