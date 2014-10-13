@@ -89,7 +89,14 @@ plugins:
 - hexo-tag-uml
 - hexo-admin
 - hexo-tag-bootstrap
+- hexo-backup-github
+
 exclude_generator:
+
+backup:
+  repository: git@github.com:coneycode/coney-hexo-theme.git
+  branch: master
+
 
 stylus:
   compress: true
