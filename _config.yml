@@ -89,12 +89,12 @@ plugins:
 - hexo-tag-uml
 - hexo-admin
 - hexo-tag-bootstrap
-- hexo-backup-github
+- hexo-auto-backup
 
 exclude_generator:
 
 backup:
-  repository: git@github.com:coneycode/coney-hexo-theme.git
+  repository: git@github.com:coneycode/meblog.git
   branch: backup
 
 
