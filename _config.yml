@@ -89,7 +89,7 @@ plugins:
 - hexo-tag-uml
 - hexo-admin
 - hexo-tag-bootstrap
-- hexo-auto-backup
+- hexo-git-backup
 
 exclude_generator:
 
