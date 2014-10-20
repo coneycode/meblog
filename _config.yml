@@ -94,6 +94,7 @@ plugins:
 exclude_generator:
 
 backup:
+  type: github
   repository: git@github.com:coneycode/meblog.git
   branch: backup
 
