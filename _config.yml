@@ -5,7 +5,7 @@
 # Site
 title: coney
 subtitle: 有些事情,再不去做就忘了.有些人,再不去找就没了. 
-description: Android 小说 安卓
+description: Android 小说 安卓 Hexo
 keywords: Android PM coder 小说 安卓 
 author: coney
 email: i@gengbiao.me
@@ -89,13 +89,14 @@ plugins:
 - hexo-tag-uml
 - hexo-admin
 - hexo-tag-bootstrap
-- hexo-backup-github
+- hexo-git-backup
 
 exclude_generator:
 
 backup:
-  repository: git@github.com:coneycode/coney-hexo-theme.git
-  branch: backup
+  type: git
+  repository:
+      github: git@github.com:coneycode/meblog.git,master
 
 
 stylus:

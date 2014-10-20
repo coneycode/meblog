@@ -1,0 +1,3 @@
+[submodule "themes/coney"]
+	path = themes/coney
+	url = https://github.com/coneycode/coney-hexo-theme
